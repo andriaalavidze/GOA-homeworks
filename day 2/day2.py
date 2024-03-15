@@ -1,0 +1,2 @@
+print("gavicani Dato Beruasvili, Giorgi Robakidze")
+print("chemi azrit GOA aris adgili sadac bevr saintereso rames sheviswavli programirebis shesaxeb, romelic gamomadgeba momavalshi warmatebis mopovebashi")

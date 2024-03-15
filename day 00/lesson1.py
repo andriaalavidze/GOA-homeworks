@@ -3,7 +3,7 @@ from turtle import *
 #we want to paint a house
 
 #steo 1: draw a square
-speed(1)
+speed(30)
 width(7)
 color("black")
 forward (200)
