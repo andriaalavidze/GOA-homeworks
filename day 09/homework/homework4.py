@@ -30,9 +30,11 @@ p = 22
 if p / m != 1.8 and o % n !=100:
     print(False)
 
-
-
-
+#number 5
+q =
+r =
+s =
+t =
 
 
 
