@@ -1,13 +1,20 @@
+# 1) მომხმარებელს შემოატანინეთ ათი რიცხვი, ეს რიცხვები დაამატეთ სიაში,
+# ამ სიიდან დაახარისხეთ ეს რიცხვები ორ ჯგუფად, რიცხვები რომლებიც მეტია 
+# 100 ზე და რიცხვები რომლებიც ნაკლებია 100 ზე
+
+numbers = []
 more = []
 less = []
-
 for i in range(10):
-    input_number = int(input("please enter number: "))
-    if input_number == 100:
+    users_input = int(input("please enter number: "))
+    numbers.append(users_input)
+
+for i in range(len(numbers)):
+    if numbers[i] == 100:
         continue
-    elif input_number < 100:
-        less.append(input_number)
+    elif numbers[i] > 100:
+        more.append(numbers[i])
     else:
-        more.append(input_number)
-print("this numbers are more than 100", more)
-print("this numbers are less than 100", less)
+        less.append(numbers[i])
+print("this numbers are more than 100: ", more)
+print("this numbers are less than 100: ", less)
